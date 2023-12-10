@@ -1,21 +1,25 @@
-# Personal_Portfolio
+# Password_Generator
 
 
 ## Description
-
+A webpage that generates a random password from 8 - 128 characters according to select user criteria. Written to assist the user in creation of a complex password, ideal greater security.
 
 
 ### Tasks Completed
+- Funtions written to generate and return a randomized password on the screen in the appropriate box.
+- All possible characters entered as variables to allow for better randomization of returned password.
 
 
 ### Links
 
 [Deployed Website](https://alittlemishmash.github.io/Password_Generator/)
+
 [Code Repository](https://github.com/alittlemishmash/Password-Generator.git)
 
 
-## Installation
+## Credits
 
+The user needs to click the "Generate Password" button to start the process of creating a random password.
 
 
 ## Usage
@@ -28,6 +32,7 @@ This website can be used on any browser.
 ## Credits
 
 - Monash BootCamp FullStack tutors and advisors.
+- https://www.programiz.com/javascript/examples/get-random-item#:~:text=random()%20method.,access%20a%20random%20array%20element.
 
 
 ## License
