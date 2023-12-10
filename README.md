@@ -16,7 +16,7 @@ A webpage that generates a random password from 8 - 128 characters according to 
 
 [Deployed Website](https://alittlemishmash.github.io/Password_Generator/)
 
-[Code Repository](https://github.com/alittlemishmash/Password-Generator.git)
+[Code Repository](https://github.com/alittlemishmash/Password_Generator.git)
 
 
 
