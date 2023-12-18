@@ -1,3 +1,5 @@
+var generateBtn = document.querySelector("#generate");
+
 function generatePassword() {
 
   // Assignment of variables
@@ -48,18 +50,16 @@ function generatePassword() {
     password += allChars[randomIndex];
   }
 
-  // Return the generated password
-  return password;
 }
 
-//Show the password on the screen
-var generateBtn = document.querySelector("#generate");
+
 
 function writePassword() {
   var password = generatePassword();
   var passwordText = document.querySelector("#password");
 
   passwordText.value = password;
+
 }
 
 // Event listener for length prompt and confirmation queries
