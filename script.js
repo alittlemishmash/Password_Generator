@@ -49,6 +49,8 @@ function generatePassword() {
     var randomIndex = Math.floor(Math.random() * allChars.length);
     password += allChars[randomIndex];
   }
+  
+  return password; // Return the generated password
 
 }
 
