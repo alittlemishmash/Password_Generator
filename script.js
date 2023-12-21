@@ -49,19 +49,15 @@ function generatePassword() {
     var randomIndex = Math.floor(Math.random() * allChars.length);
     password += allChars[randomIndex];
   }
-  
-  return password; // Return the generated password
 
+  return password; // Add this line to return the generated password
 }
-
-
 
 function writePassword() {
   var password = generatePassword();
   var passwordText = document.querySelector("#password");
 
   passwordText.value = password;
-
 }
 
 // Event listener for length prompt and confirmation queries
